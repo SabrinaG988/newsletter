@@ -7,7 +7,7 @@ services:
     environment:
       - GENERIC_TIMEZONE=America/Sao_Paulo
       - TZ=America/Sao_Paulo
-      - WEBHOOK_URL=https://northern-emission-tampa-carry.trycloudflare.com  
+        
       - N8N_INSECURE_DISABLE_FORM_HTML_SANDBOX=true
     volumes:
       - n8n_data:/home/node/.n8n
