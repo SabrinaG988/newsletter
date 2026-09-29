@@ -2,7 +2,7 @@
 
 An automated newsletter built with [n8n](https://n8n.io), MySQL and Docker. Users sign up through a form and choose the news categories they care about. The system collects articles from [NewsAPI](https://newsapi.org), stores them in MySQL, and emails each subscriber a summary of the news in their categories.
 
-![Demonstration](screenshots/demonstration.jpg)
+![Demonstration](nl-n8n/screenshots/demonstration.jpg)
 
 ## How it works
 
