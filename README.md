@@ -2,7 +2,7 @@
 
 An automated newsletter built with [n8n](https://n8n.io), MySQL and Docker. Users sign up through a form and choose the news categories they care about. The system collects articles from [NewsAPI](https://newsapi.org), stores them in MySQL, and emails each subscriber a summary of the news in their categories.
 
-![Demonstration](screenshots/Demonstration.jpg)
+![Demonstration](screenshots/demonstration.jpg)
 
 ## How it works
 
@@ -16,7 +16,7 @@ The project is made of three n8n workflows:
 
 ### 1. `add_user`
 
-![add_user workflow](screenshots/new_user.jpg)
+![add_user workflow](screenshots/add_user.jpg)
 
 1. **On form submission** — an n8n form collects the subscriber's name, email, preferred news category and email frequency.
 2. **Edit Fields** — formats the submitted values to match the `users` table columns.
