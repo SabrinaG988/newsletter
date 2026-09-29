@@ -48,7 +48,7 @@ The project is made of three n8n workflows:
 
 ### 3. `send_email`
 
-![send_email workflow](screenshots\send_email.jpg")
+![send_email workflow](screenshots\send_email.jpg)
 
 1. **Manual trigger** — starts the workflow.
 2. **Execute a SQL query** — retrieves the subscribers from the `users` table.
